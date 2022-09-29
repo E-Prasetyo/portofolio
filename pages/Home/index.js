@@ -1,21 +1,17 @@
 import React from 'react'
+import Banner from './banner'
 
 const Index = () => {
   return (
     <>
       <div className='mx-auto w-full bg-slate-500'>
-        <div className='flex flex-row justify-center '>
-          <div className='border-4 w-full border-black'>
-            artikel
-          </div>
-          <div className='border-4 w-full border-black'>
-            image
-          </div>
+        <div className='h-[30rem]'>
+          <Banner />
         </div>
         <div className='border-4 w-full border-black'>
           Biodata
         </div>
-        <div className='border-4 w-full border-black'>
+        <div className='border-4 w-full h-screen border-black'>
           Interest
         </div>
       </div>
